@@ -24,3 +24,11 @@ L'API à utiliser est :
  - Affichage d'une fiche https://random-data-api.com/api/restaurant/random_restaurant
 
 ***ATTENTION : S'agissant de données aléatoire, il ne sera pas possible sur la fiche de récupérer l'identifiant précisément appelé. Il faut néanmoins que dans la structure des pages, route et controller il y ait la notion d'identifiant.*** 
+
+
+## Informations complémentaires
+- Ne pas créer de base de données pour ce projet (Pas de gestion des migrations ou seeder)
+- Créer les dossiers suivants s'ils ne sont pas présent :
+	1. LARAVEL/storage/framework/cache
+	2. LARAVEL/storage/framework/sessions
+	3. LARAVEL/storage/framework/views
